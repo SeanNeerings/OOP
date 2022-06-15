@@ -8,10 +8,10 @@ class bottle {
       $this->name = $name;
       $this->color = $color;
     }
-    function get_name() {
+    private function get_name() {
       return $this->name;
     }
-    function get_color() {
+     protected function get_color() {
       return $this->color;
     }
   }
@@ -30,6 +30,7 @@ class bottle {
     function get_use() {
       return $this->use;
     }
+    
   }
 
 
